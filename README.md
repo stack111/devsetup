@@ -13,3 +13,8 @@ Repo which contains development tools to setup via automation
 2. Install git
 
   `brew install git`
+
+3. Install git credential manager.
+
+  `brew tap microsoft/git`
+  `brew install --cask git-credential-manager-core`
