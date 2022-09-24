@@ -1,20 +1,7 @@
-# devsetup
+# Dev Setup
+
 Repo which contains development tools to setup via automation
 
-## Prereqs
-
-### On Mac OS
-
-
-1. Install Homebrew via terminal
+## On Mac OS
   
-  `-c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-  
-2. Install git
-
-  `brew install git`
-
-3. Install git credential manager.
-
-  `brew tap microsoft/git`
-  `brew install --cask git-credential-manager-core`
+  `-c "$(curl -fsSL https://raw.githubusercontent.com/stack111/devsetup/main/macos/install.sh)"`
