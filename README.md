@@ -12,4 +12,4 @@ Repo which contains development tools to setup via automation
   
 2. Install git
 
-  `brew install git
+  `brew install git`
