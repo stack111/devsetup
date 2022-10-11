@@ -36,6 +36,8 @@ code --install-extension bierner.markdown-mermaid --force
 code --install-extension DavidAnson.vscode-markdownlint --force
 code --install-extension redhat.vscode-yaml --force
 code --install-extension ms-dotnettools.csharp --force
+code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools --force
+code --install-extension ms-vscode.PowerShell --force
 
 # git auto-complete for zsh
 hasAutoComplete=$(grep -i "autoload -Uz compinit && compinit" ~/.zshrc)
