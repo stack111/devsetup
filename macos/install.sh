@@ -9,7 +9,7 @@ fi
 
 brew install git
 brew tap microsoft/git
-brew install --cask git-credential-manager-core
+brew install --cask git-credential-manager
 brew install --cask powershell
 brew install --cask visual-studio-code
 brew install kubernetes-cli
