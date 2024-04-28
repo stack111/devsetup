@@ -19,6 +19,11 @@ brew install minikube
 brew install node
 brew tap instrumenta/instrumenta
 brew install kubeval
+brew install wget
+
+wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
+chmod +x ./dotnet-install.sh
+./dotnet-install.sh
 
 # install vscode extensions
 code --install-extension ms-vscode.azure-account --force
@@ -44,5 +49,13 @@ hasAutoComplete=$(grep -i "autoload -Uz compinit && compinit" ~/.zshrc)
 if [ -z "$hasAutoComplete" ]; 
 then 
     echo 'autoload -Uz compinit && compinit' >> ~/.zshrc
+    source ~/.zshrc
+fi
+
+hasDotNet=$(grep -i "DOTNET_ROOT" ~/.zshrc)
+if [ -z "$hasDotNet" ];
+then
+    echo 'export PATH=$HOME/.dotnet' >> ~/.zshrc
+    echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.zshrc
     source ~/.zshrc
 fi
