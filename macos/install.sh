@@ -44,6 +44,7 @@ code --install-extension ms-dotnettools.csharp --force
 code --install-extension ms-dotnettools.csdevkit --force
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools --force
 code --install-extension ms-vscode.PowerShell --force
+code --install-extension AzureADB2CTools.aadb2c --force
 
 # git auto-complete for zsh
 hasAutoComplete=$(grep -i "autoload -Uz compinit && compinit" ~/.zshrc)
